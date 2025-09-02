@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img
+          class="header__logo"
+          src="/src/images/logo.png"
+          alt="Stellar Soft logo"
+        />
+        <img class="header__icon" src="/src/images/menu-icon.png" alt="menu icon" />
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link"> New & Featured </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link"> Men </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link"> Women </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link" data-qa="hover"> Kids </a>
+            </li>
+          </ul>
+        </nav>
+        <img class="header__icon" src="/src/images/Cart Icon.png" alt="cart icon" />
+      </div>
+    </header>
+<div class="swiper js-hero-swiper">
+
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img class="swiper-slide__image" src="/src/images/slide - 1mob.jpg" alt="Slide 1" />
+    </div>
+    <div class="swiper-slide">
+      <img class="swiper-slide__image" src="/src/images/Slide - 2.png" alt="Slide 2" />
+    </div>
+    <div class="swiper-slide">
+      <img class="swiper-slide__image" src="/src/images/Slide - 3.png" alt="Slide 3" />
+    </div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper__overlay">
+    
+    <div class="swiper__overlay-content">
+      <h2 class="swiper__overlay-title">More than just shoes — it’s a part of your story.</h2>
+      <p class="swiper__overlay-description">Original sneakers from Nike and other top brands that make every step feel special.</p>
+      <button class="swiper__overlay-button">Shop the Collection</button>
+    </div>
+  </div>
+</div>
+    <script type="module" src="/src/main.js"></script>
+
+<div class="swiper js-products-swiper">
+  <h2 class="swiper__title">Featured Collection</h2>
+
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <div class="card">
+        <img class="card__image" src="/src/images/swiper_img-1.png" alt="Product 1" />
+        <div class="card__body">
+          <div class="card__title">Nike Streakfly 2</div>
+          <div class="card__price">$300.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card">
+        <img class="card__image" src="/src/images/swiper__img-2.png" alt="Product 2" />
+        <div class="card__body">
+          <div class="card__title">Nike Pegasus Premium</div>
+          <div class="card__price">$350.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="card">
+        <img class="card__image" src="/src/images/swiper__img-3.png" alt="Product 3" />
+        <div class="card__body">
+          <div class="card__title">Nike Pegasus 41</div>
+          <div class="card__price">$280.00</div>
+        </div>
+      </div>
+    </div>
+
+     <div class="swiper-slide">
+      <div class="card">
+        <img class="card__image" src="/src/images/swiper__img-3.png" alt="Product 3" />
+        <div class="card__body">
+          <div class="card__title">Nike Pegasus 41</div>
+          <div class="card__price">$280.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="products-prev">←</button>
+  <button class="products-next">→</button>
+</div>
+<section class="faq">
+  <h2 class="faq__title">Frequently asked questions</h2>
+  <h3 class="faq__subtitle">Answers to our most frequently asked questions are just one click away.</h3>
+
+  <details class="accordion">
+    <summary class="accordion__summary">
+      What are Nike's delivery options?
+    </summary>
+    <div class="accordion__content">
+      <div class="accordion__inner">
+        You can place an order through the cart on the website or call our manager.
+      </div>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary class="accordion__summary">
+     What is Nike's returns policy?
+    </summary>
+    <div class="accordion__content">
+      <div class="accordion__inner">
+When you shop Nike online, either in the Nike App or on Nike.com, you can return items that are unworn and unwashed and still have their product tags attached within 30 days of purchase (some exceptions apply). That includes custom Nike By You sneakers.      </div>
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary class="accordion__summary">
+      Where is my Nike order?
+    </summary>
+    <div class="accordion__content">
+      <div class="accordion__inner">
+        You can track your order status through the Nike App or on Nike.com by entering your order number.
+      </div>
+
+
+    </div>
+  </details>
+
+  <details class="accordion">
+    <summary class="accordion__summary">
+      How do I find the right size and fit?
+    </summary>
+    <div class="accordion__content">
+      <div class="accordion__inner">
+        You can find the right size and fit by using the size guide available on Nike.com or in the Nike App. Additionally, customer service can assist you with sizing questions.
+      </div>
+
+      
+    </div>
+  </details>
+</section>
+
+<section class="pd">
+  <!-- Ліва колонка: мініатюри -->
+ 
+
+  <!-- Права колонка: велике зображення + інформація -->
+  <div class="pd__right">
+    <div class="pd__image-wrap">
+      <img id="pd-main" class="pd__image" src="/src/images/product__main-pink.png" alt="Product image" />
+      <span class="pd__badge">Highly Rated</span>
+    </div>
+
+     <nav class="pd__thumbs" id="pd-thumbs" aria-label="Product gallery thumbnails"></nav>
+    
+    <div class="pd__info">
+      <div class="pd__price-row">
+        <h1 class="pd__title">Nike Air Max Plus</h1>
+        <div id="pd-price" class="pd__price">—</div>
+      </div>
+
+      <div class="pd__colors">
+  <div class="pd__label">Color</div>
+  <div id="pd-colors" class="pd__color-list" role="radiogroup" aria-label="Choose color"></div>
+</div>
+
+      <div class="pd__sizes">
+        <div class="pd__label">Select Size:</div>
+        <div id="pd-sizes" class="pd__sizes-list" role="radiogroup" aria-label="Choose size"></div>
+      </div>
+
+      <button class="pd__add" type="button">Add To Bag</button>
+    </div>
+  </div>
+</section>
+
+  </body>
+</html>
