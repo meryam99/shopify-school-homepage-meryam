@@ -1,14 +1,20 @@
 
 import 'swiper/css/bundle';
-import './header.css';
+import './style.css';
 
 
-import { initProductsSlider } from './sliders/products.js';
-import { initHeroSlider } from './sliders/hero.js';
-import { initProductDetail } from './sliders/product-detail.js';
+import { initProductsSlider } from './modules/products.js';
+import { initHeroSlider } from './modules/hero.js';
+import { initProductDetail } from './modules/product-detail.js';
+import { initHelpForm } from './modules/need-help.js';
+import { initFooterAccordion } from './modules/footer.js';
+import { initNewsletterPopup } from './modules/popup.js'; 
 
 document.addEventListener('DOMContentLoaded', () => {
   initProductDetail();
   initProductsSlider();
   initHeroSlider();
+  initHelpForm();
+  initFooterAccordion();
+  initNewsletterPopup();
 });
