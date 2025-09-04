@@ -1,6 +1,8 @@
-Stellar Soft – Storefront (Vite)
+# Stellar Soft – Storefront (Vite)
 
 A small storefront prototype: hero slider, product gallery with thumbnails & color swatches, FAQ accordion, “Need Help?” form, responsive footer, and a timed newsletter popup.
+
+Check via https://meryam99.github.io/shopify-school-homepage-meryam/
 
 🚀 Run locally
 Requirements
@@ -42,38 +44,9 @@ Google Fonts (Poppins)
 
 🧪 What I’d improve with more time
 
-A11y:
+Keyboard support for sliders (left/right), and for color/size groups.
 
-Full focus trap in the popup and return focus to opener.
+Lazy loading and skeleton loaders.
 
-Keyboard support for sliders (left/right), and for color/size groups (roving tabindex).
-
-Performance:
-
-Responsive images (<img srcset/sizes>), WebP/AVIF, lazy loading.
-
-Preload hero fonts with font-display: swap.
-
-Data layer:
-
-Fetch product data from JSON/API instead of hardcoded objects.
-
-Persist size/color selections.
-
-Testing:
-
-Unit tests with Vitest, e2e with Playwright.
-
-Tooling:
-
-GitHub Actions CI (lint, test, build).
-
-husky + lint-staged pre-commit hooks.
-
-i18n:
-
-Extract copy into a messages file for multi-language support.
-
-Design polish:
-
-Motion (micro-interactions), skeleton loaders, better empty/error states.
+With more time, I’d refactor the code to be cleaner and better organized. I also added inline comments to lightly explain and structure parts of the implementation :)
+I focused on delivering a refined Product Details page. The client-side state links color, price, and sizes: switching colors updates the main image and thumbnails, refreshes the price, and enables the correct size options, with sensible defaults. This makes the product detail page feel cohesive and responsive.
