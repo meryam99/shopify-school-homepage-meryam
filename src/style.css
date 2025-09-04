@@ -230,7 +230,7 @@ body {
   text-align: center;
 }
 
-/* Вирівнюємо висоту слайдів під контент */
+
 .js-products-swiper .swiper-wrapper {
   align-items: stretch;
 }
@@ -239,7 +239,7 @@ body {
   height: auto;
 }
 
-/* Картка всередині слайда */
+
 .js-products-swiper .swiper-slide > .card {
   display: flex;
   flex-direction: column;
@@ -249,7 +249,7 @@ body {
   cursor: pointer;
 }
 
-/* Зображення */
+
 .js-products-swiper .swiper-slide .card__image {
   margin: 16px;
   display: block;
@@ -258,7 +258,7 @@ body {
   object-fit: cover;
 }
 
-/* Контент картки (якщо додаси назву/ціну) */
+
 .js-products-swiper .swiper-slide .card__body {
   margin: 0 16px;
   display: grid;
@@ -282,7 +282,7 @@ body {
   color: #737373;
 }
 
-/* Стрілки поверх, круглі */
+
 .js-products-swiper .products-prev,
 .js-products-swiper .products-next {
   position: absolute;
@@ -674,7 +674,7 @@ body {
   text-align: left;
 }
 
-/* Доступні фокуси лише на інтерактивних */
+
 .pd__thumb:focus-visible,
 .pd__color:focus-visible,
 .pd__size:focus-visible {
@@ -682,7 +682,7 @@ body {
   outline-offset: 2px;
 }
 
-/* ============ DESKTOP: thumbs | image | info ============ */
+/* ============ DESKTOP: ============ */
 @media (width >= 768px) {
   .pd {
     display: block;
