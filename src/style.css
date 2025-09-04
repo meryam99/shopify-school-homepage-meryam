@@ -230,7 +230,6 @@ body {
   text-align: center;
 }
 
-
 .js-products-swiper .swiper-wrapper {
   align-items: stretch;
 }
@@ -238,7 +237,6 @@ body {
 .js-products-swiper .swiper-slide {
   height: auto;
 }
-
 
 .js-products-swiper .swiper-slide > .card {
   display: flex;
@@ -249,7 +247,6 @@ body {
   cursor: pointer;
 }
 
-
 .js-products-swiper .swiper-slide .card__image {
   margin: 16px;
   display: block;
@@ -257,7 +254,6 @@ body {
   height: 312px;
   object-fit: cover;
 }
-
 
 .js-products-swiper .swiper-slide .card__body {
   margin: 0 16px;
@@ -281,7 +277,6 @@ body {
   letter-spacing: 0%;
   color: #737373;
 }
-
 
 .js-products-swiper .products-prev,
 .js-products-swiper .products-next {
@@ -673,7 +668,6 @@ body {
   font-weight: 400;
   text-align: left;
 }
-
 
 .pd__thumb:focus-visible,
 .pd__color:focus-visible,
