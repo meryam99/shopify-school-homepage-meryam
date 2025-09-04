@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": ["stylelint-prettier"],
+  "overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "block-no-empty": true,
+    "color-hex-length": "short",              
+    "number-max-precision": 2           
+  }
+}
